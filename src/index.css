@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'millionaire_demoregular';
+    src: url('font/millionaire-webfont.woff2') format('woff2'),
+         url('font/millionaire-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-color: black;
+  font-family: 'millionaire_demoregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }

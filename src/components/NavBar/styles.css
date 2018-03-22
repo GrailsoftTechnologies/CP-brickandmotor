@@ -12,8 +12,9 @@
 }
 .Navbar-Header {
   background-color: #28525A;
-  color: #FFFFFF;
+  color: white;
 }
+
 .Link {
   background-color: #28525A;
   margin-bottom: 4px;
