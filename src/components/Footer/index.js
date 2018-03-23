@@ -6,10 +6,11 @@ render() {
   return(
     <div className="Footer">
       <h3>Site and design © 2018 Grailsoft Technical Solutions</h3>
-      <a href='https://www.facebook.com' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square"></span></a>
-      <a href='https://www.instagram.com' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram"></span></a>
-      <a href='https://www.twitter.com' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square"></span></a>
-</div>    );
+      <a href='https://www.linkedin.com/company/grailsoft-technologies-llc/' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-linkedin-square"></span></a>
+      <a href='https://github.com/GrailsoftTechnologies' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-github-square"></span></a>
+      <a href='https://twitter.com/GrailsoftTech' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square"></span></a>
+    </div>
+    );
   }
 }
 

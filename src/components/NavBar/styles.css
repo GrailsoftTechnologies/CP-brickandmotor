@@ -14,7 +14,6 @@
   background-color: #28525A;
   color: white;
 }
-
 .Link {
   background-color: #28525A;
   margin-bottom: 4px;
@@ -33,7 +32,10 @@ img {
   background-color: #28525A;
   border: 0px;
 }
-
+#navBarTest {
+  background-color: black;
+  border-color: black;
+}
 .navigationBar-hidden {
   text-align: center;
   height: '1.5em';
