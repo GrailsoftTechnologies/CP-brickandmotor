@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import './styles.css';
 import Logo from '../../img/image2.jpeg';
 
-class TopBar extends Component {
+class NavBar extends Component {
   render() {
     return (
       <Navbar inverse fluid className={this.props.className}>
@@ -14,7 +14,7 @@ class TopBar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>
-        <Navbar.Collapse id="navBarTest">
+        <Navbar.Collapse>
           <Nav pullRight>
             <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram"></span></NavItem>
             <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square"></span></NavItem>
@@ -31,8 +31,8 @@ class TopBar extends Component {
   }
 }
 
-TopBar.defaultProps = {
-  className: "navigationBar",
+NavBar.defaultProps = {
+  className: "navigationBar navbar-fixed-top",
 }
 
-export default TopBar;
+export default NavBar;

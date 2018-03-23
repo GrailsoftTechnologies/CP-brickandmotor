@@ -4,9 +4,16 @@ import './styles.css';
 class Contact extends Component {
 render() {
   return(
-    <div>
-      <h2>Contact page</h2>
-    </div>
+    <main className='wrapper'>
+      <section>
+        <h1>A</h1>
+        <h2>BUNCH</h2>
+        <h1>OF</h1>
+        <h2>CONTACT</h2>
+        <h2>STUFF</h2>
+        <h2>HERE</h2>
+      </section>
+    </main>
     );
   }
 }

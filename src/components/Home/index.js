@@ -5,10 +5,19 @@ import './styles.css';
 class Home extends Component {
   render() {
     return (
-      <div className='Home'>
-        <h1>Home page for Brick and Motor</h1>
-        <h1>LET'S CHECK THIS OUT</h1>
-      </div>
+      <main className='wrapper'>
+        <section className='section parallax bg1'>
+          <h1>BRICK</h1>
+          <h2>AND</h2>
+          <h1>MOTOR</h1>
+          <h2>WOOD FIRED PIZZA</h2>
+        </section>
+        <section className='section static'>
+          <h1>PIZZA?</h1>
+        </section>
+        <section className='section parallax bg2'>
+        </section>
+      </main>
     );
   }
 }
