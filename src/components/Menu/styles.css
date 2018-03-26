@@ -1,3 +1,7 @@
 body {
   color: white;
 }
+
+.wrapper {
+  padding-bottom: 150px;
+}

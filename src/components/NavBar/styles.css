@@ -25,12 +25,17 @@
   justify-content: center;
   border: 0px;
 } */
-/* .Navbar-Brand {
-  padding: 0px;
-} */
+.navbar-brand {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  min-height: 40px;
+  min-width: 40px;
+}
 #bamLogo {
-  display: block;
-  padding-left: 1em;
+
+  /* padding-left: 1em; */
   max-width:100px;
   max-height:40px;
   width: auto;

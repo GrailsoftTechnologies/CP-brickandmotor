@@ -20,11 +20,13 @@ body, html {
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 30vw;
   padding-bottom: 0px;
+  max-width: 100%;
 }
 h2{
-  font-size: 100px;
+  font-size: 20vw;
+  max-width: 100%;
 }
 
 .parallax::after {
@@ -37,6 +39,7 @@ h2{
   transform: translateZ(-1px) scale(1.5);
   background-size: 100%;
   z-index: -1;
+  background-repeat: no-repeat;
 }
 .static {
   background: black;
