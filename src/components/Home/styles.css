@@ -19,14 +19,18 @@ body, html {
   text-shadow: 0 0 5px #000;
 }
 
-h1 {
-  font-size: 30vw;
-  padding-bottom: 0px;
-  max-width: 100%;
+.lineStyle1 {
+  font-size: 12vh;
+  padding: 4vh;
 }
-h2{
-  font-size: 20vw;
-  max-width: 100%;
+.lineStyle2 {
+  font-size: 8vh;
+  padding: 2vh;
+}
+.lineStyle3 {
+  font-size: 6vh;
+  padding: 1vh;
+  padding-top: 5vh;
 }
 
 .parallax::after {
@@ -43,7 +47,7 @@ h2{
 }
 .static {
   background: black;
-  height: 50%;
+  height: 60%;
 }
 .bg1::after {
   background-image: url('../../img/image4.jpeg');
