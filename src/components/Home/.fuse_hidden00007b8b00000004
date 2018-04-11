@@ -18,17 +18,14 @@ body, html {
   color: white;
   text-shadow: 0 0 5px #000;
 }
-#test{
-  color: white;
-  font-size: 120px;
-}
+
 h1 {
   font-size: 30vw;
   padding-bottom: 0px;
   max-width: 100%;
 }
 h2{
-  font-size: 120px;
+  font-size: 20vw;
   max-width: 100%;
 }
 
