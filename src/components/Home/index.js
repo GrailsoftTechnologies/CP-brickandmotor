@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PrimeNow from '../../img/prime.jpg';
 import './styles.css';
 
 
@@ -13,7 +14,8 @@ class Home extends Component {
           <h2>WOOD FIRED PIZZA</h2>
         </section>
         <section className='section static'>
-          <h1>PIZZA?</h1>
+          <p id="test">Deliver unto us the Pizza</p>
+          <a href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_20" target="_blank" ><img src={PrimeNow} alt='amazon restaurant delivery' id="primeLogo"></img></a>
         </section>
         <section className='section parallax bg2'>
         </section>
