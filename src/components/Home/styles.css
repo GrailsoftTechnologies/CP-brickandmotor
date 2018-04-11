@@ -29,6 +29,7 @@ h2{
   max-width: 100%;
 }
 
+
 .parallax::after {
   content: " ";
   position: absolute;
