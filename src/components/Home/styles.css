@@ -32,6 +32,11 @@ body, html {
   padding: 1vh;
   padding-top: 5vh;
 }
+#primeLogo{
+  height: 120px;
+  width: 240px;
+  border-radius: 5%;
+}
 
 
 .parallax::after {
