@@ -10,6 +10,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/CP-brickandmotor">
     <App />
   </BrowserRouter>, document.getElementById('root'));
