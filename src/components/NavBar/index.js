@@ -21,9 +21,9 @@ class NavBar extends Component {
             <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square"></span></NavItem>
           </Nav>
           <Nav pullLeft>
-            <NavItem href="/Menu" className="menuItem">Menu</NavItem>
-            <NavItem href="/About" className="menuItem">About</NavItem>
-            <NavItem href="/Contact" className="menuItem">Contact</NavItem>
+            <NavItem href={"/Menu"} className="menuItem">Menu</NavItem>
+            <NavItem href={"/About"} className="menuItem">About</NavItem>
+            <NavItem href={"/Contact"} className="menuItem">Contact</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
