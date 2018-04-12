@@ -61,6 +61,11 @@ body, html {
 .bg2::after {
   background-image: url('../../img/image5.jpeg');
 }
+@media (max-width: 991px) {
+  .desktop-only {
+      display:none !important;
+  }
+}
 @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;
