@@ -6,22 +6,22 @@ render() {
   return(
     <main className='wrapper'>
       <section>
-        <h1>|BRICK AND MOTOR|</h1>
-        <h2>TEXT [971]998-6575 TO ORDER</h2>
-        <h1>DELIVERED TO YOUR TABLE</h1>
-        <h2>|WOOD FIRED PIZZA|</h2>
-        <h2>|10 WHOLE PIES|</h2>
-        <h2>9 CHEESE/MARG    11 PEPPERONI</h2>
-        <h2>12 VEGGI SPECIAL    13 MEAT SPECIAL</h2>
-        <h2>|HALF PIE SLICES|</h2>
-        <h2>5 CHEESE    6 PEPPERONI</h2>
-        <h2>|SIDES|</h2>
-        <h2>5 BREAD STICKS</h2>
-        <h2>4 CAESAR    4 CAPRESE</h2>
-        <h2>|HOURS|</h2>
-        <h2>WED - THURS 4 PM - 1 AM</h2>
-        <h2>FRI - SAT 4 PM - 230 AM</h2>
-        <h2>SUN 4 PM - 12 AM</h2>
+        <div className="lineStyle1">|BRICK AND MOTOR|</div>
+        <div className="lineStyle2">TEXT [971]998-6575 TO ORDER</div>
+        <div className="lineStyle1">DELIVERED TO YOUR TABLE</div>
+        <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
+        <div className="lineStyle2">|10 WHOLE PIES|</div>
+        <div className="lineStyle2">9 CHEESE/MARG    11 PEPPERONI</div>
+        <div className="lineStyle2">12 VEGGI SPECIAL    13 MEAT SPECIAL</div>
+        <div className="lineStyle2">|HALF PIE SLICES|</div>
+        <div className="lineStyle2">5 CHEESE    6 PEPPERONI</div>
+        <div className="lineStyle2">|SIDES|</div>
+        <div className="lineStyle2">5 BREAD STICKS</div>
+        <div className="lineStyle2">4 CAESAR    4 CAPRESE</div>
+        <div className="lineStyle2">|HOURS|</div>
+        <div className="lineStyle2">WED - THURS 4 PM - 1 AM</div>
+        <div className="lineStyle2">FRI - SAT 4 PM - 230 AM</div>
+        <div className="lineStyle2">SUN 4 PM - 12 AM</div>
       </section>
     </main>
     );

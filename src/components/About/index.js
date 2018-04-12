@@ -6,12 +6,12 @@ render() {
   return(
       <main className='wrapper'>
         <section>
-          <h1>Pizza -</h1>
-          <h2>Wood-Fired to Perfection</h2>
-          <h1>Dough -</h1>
-          <h2> hand-mixed daily</h2>
-          <h2>Serving Satisfaction from 4 PM to LATE.</h2>
-        
+          <div className="lineStyle1">Pizza </div>
+          <div className="lineStyle2">Wood-Fired to Perfection</div>
+          <div className="lineStyle1">Dough </div>
+          <div className="lineStyle2"> hand-mixed daily</div>
+          <div className="lineStyle2">Serving Satisfaction from 4 PM to LATE.</div>
+
         </section>
       </main>
     );

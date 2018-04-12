@@ -6,8 +6,8 @@ class NotFound extends Component {
   render() {
     return (
       <div className="page-container">
-        <h1 className="title">404</h1>
-        <h2>404 Page here</h2>
+        <div className="lineStyle1 title">404</div>
+        <div className="lineStyle2">404 Page here</div>
         <center><Link to="/">Return to Home Page</Link></center>
       </div>
     );
