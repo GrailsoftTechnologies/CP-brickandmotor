@@ -16,8 +16,8 @@ class NavBar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram"></span></NavItem>
-            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square"></span></NavItem>
+            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram"></span></NavItem>
+            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square"></span></NavItem>
             <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square"></span></NavItem>
           </Nav>
           <Nav pullLeft>
