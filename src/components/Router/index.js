@@ -15,7 +15,7 @@ class Router extends Component {
     return (
       <div className="Router">
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/menu" component={Menu}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
