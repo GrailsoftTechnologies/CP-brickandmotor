@@ -6,9 +6,9 @@ class Contact extends Component {
     return (
       <main className="wrapper">
         <section>
-          <div className="lineStyle2">Call- 971.988.6575 </div>
+          <div className="lineStyle6">Call [ 971 ] 988 - 6575 </div>
           <hr />
-          <div className="lineStyle2">
+          <div className="lineStyle6">
             <a
               href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_23"
               alt="link to amazon delivery"
@@ -17,11 +17,18 @@ class Contact extends Component {
             </a>
           </div>
           <hr />
-          <div className="lineStyle2">Map will Go here</div>
-          <hr />
-          <div className="lineStyle2">Follow</div>
-          <div className="lineStyle2">STUFF</div>
-          <div className="lineStyle2">HERE</div>
+          <div className="mapBox">
+            <iframe
+              width="800"
+              height="600"
+              frameborder="0"
+              styles="border:0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM
+                &q=Brick+and+Motor+Pizza,Portland+OR
+                &zoom=14"
+              allowfullscreen>
+            </iframe>
+          </div>
         </section>
       </main>
     );

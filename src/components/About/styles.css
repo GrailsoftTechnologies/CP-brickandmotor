@@ -11,3 +11,18 @@
   padding: 1vh;
   padding-top: 5vh;
 }
+.lineStyle5 {
+  font-size: 6vh;
+  padding: 1vh;
+  padding-top: 5vh;
+  font-family: 'New Athletic M54', Arial, sans-serif;
+}
+.lineStyle6 {
+  font-size: 10vh;
+  padding: 2vh;
+  font-family: 'New Athletic M54', Arial, sans-serif;
+}
+.aboutWrapper {
+  margin: auto;
+  max-width: 1200px;
+}

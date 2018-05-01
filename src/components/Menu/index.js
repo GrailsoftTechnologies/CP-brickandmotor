@@ -7,7 +7,7 @@ render() {
     <main className='wrapper'>
       <section>
         <div className="lineStyle1">|BRICK AND MOTOR|</div>
-        <div className="lineStyle2">TEXT [971]998-6575 TO ORDER</div>
+        <div className="lineStyle6">TEXT [971] 998 - 6575 TO ORDER</div>
         <div className="lineStyle1">DELIVERED TO YOUR TABLE</div>
         <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
         <div className="lineStyle2">|10 WHOLE PIES|</div>
