@@ -19,27 +19,11 @@ body, html {
   color: white;
   text-shadow: 0 0 5px #000;
 }
-
-.lineStyle1 {
-  font-size: 12vh;
-  padding: 4vh;
-}
-.lineStyle2 {
-  font-size: 8vh;
-  padding: 2vh;
-}
-.lineStyle3 {
-  font-size: 6vh;
-  padding: 1vh;
-  padding-top: 5vh;
-}
 #primeLogo{
   height: 120px;
   width: 240px;
   border-radius: 5%;
 }
-
-
 .parallax::after {
   content: " ";
   position: absolute;
@@ -62,11 +46,6 @@ body, html {
 }
 .bg2::after {
   background-image: url('../../img/image4.jpeg');
-}
-@media (max-width: 991px) {
-  .desktop-only {
-      display:none !important;
-  }
 }
 @media only screen and (max-device-width: 1366px) {
     .parallax {

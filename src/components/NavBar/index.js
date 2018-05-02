@@ -15,15 +15,15 @@ class NavBar extends Component {
           <Navbar.Toggle/>
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
-            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
-            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavItem>
-            <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavItem>
-          </Nav>
           <Nav pullLeft>
             <NavItem href={"#/Menu"} className="menuItem">Menu</NavItem>
             <NavItem href={"#/About"} className="menuItem">About</NavItem>
             <NavItem href={"#/Contact"} className="menuItem">Contact</NavItem>
+          </Nav>
+          <Nav pullRight>
+            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
+            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavItem>
+            <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
