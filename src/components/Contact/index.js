@@ -19,8 +19,8 @@ class Contact extends Component {
           <hr />
           <div className="mapBox">
             <iframe
-              width="800"
-              height="600"
+              height="400px"
+              width="100%"
               frameborder="0"
               styles="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM

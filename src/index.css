@@ -50,6 +50,9 @@ body {
   padding: 1vh;
   padding-top: 5vh;
 }
+.lineStyle4 {
+  font-size: 2vh;
+}
 .lineStyle5 {
   font-size: 6vh;
   padding: 1vh;
@@ -60,4 +63,7 @@ body {
   font-size: 10vh;
   padding: 2vh;
   font-family: 'New Athletic M54', Arial, sans-serif;
+}
+.lineStyle7 {
+  font-size: 4vh;
 }
