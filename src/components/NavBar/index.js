@@ -7,7 +7,7 @@ import Logo from '../../img/image2.jpeg';
 class NavBar extends Component {
   render() {
     return (
-      <Navbar inverse fluid className={this.props.className}>
+      <Navbar inverse fluid collapseOnSelect className={this.props.className}>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/"><img id="bamLogo" src={Logo} alt='the brick and motor logo'></img></Link>
