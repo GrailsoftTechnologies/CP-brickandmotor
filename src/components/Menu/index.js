@@ -9,7 +9,7 @@ render() {
       <section>
         <div className="lineStyle1">|BRICK AND MOTOR|</div>
         <div className="lineStyle2">TEXT OR CALL</div>
-        <div className="lineStyle6">971 998 6575</div>
+        <div className="lineStyle6">[971] 998 - 6575</div>
         <div className="lineStyle2">TO PLACE AN ORDER</div>
         <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
         <Grid>
