@@ -12,6 +12,7 @@ class Contact extends Component {
             <a
               href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_23"
               alt="link to amazon delivery"
+							target="_blank" rel="noreferrer noopener"
             >
               Amazon Delivery
             </a>
@@ -19,6 +20,7 @@ class Contact extends Component {
           <hr />
           <div className="mapBox">
             <iframe
+							title="googleMap"
               height="400px"
               width="100%"
               frameborder="0"
