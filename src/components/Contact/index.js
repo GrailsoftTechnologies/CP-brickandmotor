@@ -31,8 +31,9 @@ class Contact extends Component {
               allowfullscreen>
             </iframe>
           </div>
-					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpizza.com</p></a>
 					<hr />
+					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpizza.com</p></a>
+
         </section>
       </main>
     );
