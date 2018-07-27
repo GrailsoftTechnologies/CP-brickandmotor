@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <main className="wrapper">
         <section>
-          <div className="lineStyle6">Call [ 971 ] 988 - 6575 </div>
+          <a href="tel:+19719886575"><p className="lineStyle6">Call [ 971 ] 988 - 6575 </p></a>
           <hr />
           <div className="lineStyle6">
             <a
@@ -31,6 +31,8 @@ class Contact extends Component {
               allowfullscreen>
             </iframe>
           </div>
+					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpizza.com</p></a>
+					<hr />
         </section>
       </main>
     );
