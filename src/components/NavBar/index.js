@@ -16,9 +16,9 @@ class NavBar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullLeft>
-            <NavItem href={"#/Menu"} className="menuItem">Menu</NavItem>
-            <NavItem href={"#/About"} className="menuItem">About</NavItem>
-            <NavItem href={"#/Contact"} className="menuItem">Contact</NavItem>
+            <NavItem href={"/Menu"} className="menuItem">Menu</NavItem>
+            <NavItem href={"/About"} className="menuItem">About</NavItem>
+            <NavItem href={"/Contact"} className="menuItem">Contact</NavItem>
           </Nav>
           <Nav pullRight>
             <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
