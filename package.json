@@ -1,8 +1,8 @@
 {
-  "name": "brickandmotor",
+  "name": "Brick and Motor PDX",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.brickandmotorpizza.com/",
+  "homepage": "http://www.brickandmotorpdx.com/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
