@@ -5,7 +5,7 @@ import './styles.css';
 class Menu extends Component {
 render() {
   return(
-    <main className='wrapper'>
+    <main className='menuWrapper'>
       <section>
         <div className="lineStyle1">|BRICK AND MOTOR|</div>
         <div className="lineStyle2">TEXT OR CALL</div>
