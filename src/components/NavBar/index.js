@@ -1,38 +1,69 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, Collapse } from 'reactstrap';
 import './styles.css';
 import Logo from '../../img/image2.jpeg';
 
 class NavBar extends Component {
+  constructor(props) {
+  super(props);
+
+  this.toggle = this.toggle.bind(this);
+	this.toggle2 = this.toggle2.bind(this);
+  this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+	toggle2() {
+		if (this.state.isOpen) {
+			this.setState({
+	      isOpen: false
+	    });
+		}
+  }
   render() {
     return (
-      <Navbar inverse fluid collapseOnSelect className={this.props.className}>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <Link to="/"><img id="bamLogo" src={Logo} alt='the brick and motor logo'></img></Link>
-          </Navbar.Brand>
-          <Navbar.Toggle/>
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav pullLeft>
-            <NavItem href={"/Menu"} className="menuItem">Menu</NavItem>
-            <NavItem href={"/About"} className="menuItem">About</NavItem>
-            <NavItem href={"/Contact"} className="menuItem">Contact</NavItem>
+      <Navbar expand="md" className={this.props.className}>
+        <NavbarBrand href="/">
+          <img id="bamLogo" src={Logo} alt="the brick and motor logo"></img>
+        </NavbarBrand>
+        <NavbarToggler onClick={this.toggle} />
+        <Collapse isOpen={this.state.isOpen} navbar>
+          <Nav className="ml-auto" navbar pullLeft>
+            <NavItem>
+							<NavLink href={"/menu"} className="menuItem" onClick={this.toggle2}>Menu
+							</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href={"/about"} className="menuItem" onClick={this.toggle2}>About</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href={"/contact"} className="menuItem" onClick={this.toggle2}>Contact</NavLink>
+						</NavItem>
           </Nav>
-          <Nav pullRight>
-            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
-            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavItem>
-            <NavItem href="https://www.yelp.com/biz/brick-and-motor-portland-2?osq=Brick+and+Motor" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavItem>
+          <Nav className="socialIcons">
+						<NavItem>
+							<NavLink href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="https://www.yelp.com/biz/brick-and-motor-portland-2?osq=Brick+and+Motor" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavLink>
+						</NavItem>
           </Nav>
-        </Navbar.Collapse>
+        </Collapse>
       </Navbar>
     );
   }
 }
 
 NavBar.defaultProps = {
-  className: "navigationBar navbar-fixed-top",
+  className: "sticky-top navbar-dark bg-dark Navbar",
 }
 
 export default NavBar;

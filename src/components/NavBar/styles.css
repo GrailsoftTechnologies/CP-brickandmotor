@@ -1,14 +1,24 @@
-.navigationBar {
-  height: '1.5em';
-  padding-top: .5em;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  color: white;
-  background-color: black;
-  z-index: 1;
-  border: 0px;
+.NavBar {
+}
+
+.socialIcons{
+	justify-content: center;
+}
+
+
+/* Bootstrap overrides */
+.bg-dark {
+	background-color: black!important;
+	height: 100%;
+}
+
+.nav-link {
+	color: white!important;
+	border-bottom: 1px black solid;
+}
+
+.nav-link:hover {
+	border-bottom: 1px white solid;
 }
 
 .navbar-brand {
@@ -20,15 +30,16 @@
   min-width: 40px;
 }
 #bamLogo {
-  max-width:40px;
-  max-height:40px;
+  max-width:120px;
+  max-height:120px;
   width: auto;
   height: auto;
+  margin-left: 5vw;
 }
 .menuItem{
-  font-size: 4vh
+  font-size: 3vh;
 }
-/* 
+/*
 @media (max-width: 991px) {
   .desktop-only {
       display:none !important;
