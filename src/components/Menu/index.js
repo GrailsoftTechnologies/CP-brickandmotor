@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row } from 'reactstrap';
 import './styles.css';
 
 class Menu extends Component {
@@ -12,7 +12,7 @@ render() {
         <a href="tel:+19719886575"><p className="lineStyle6">[ 971 ] 988 - 6575 </p></a>
         <div className="lineStyle2">TO PLACE AN ORDER</div>
         <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
-        <Grid>
+        <Container>
           <Row>
             <Col sm={12}>
               <div className="lineStyle2">|WHOLE PIES|</div>
@@ -55,7 +55,7 @@ render() {
                 <div className="lineStyle7">4 CAPRESE</div>
             </Col>
           </Row>
-        </Grid>
+        </Container>
         <div className="lineStyle2">|HOURS|</div>
         <div className="lineStyle7">WED - THURS 4 PM - 1 AM</div>
         <div className="lineStyle7">FRI - SAT 4 PM - 230 AM</div>
