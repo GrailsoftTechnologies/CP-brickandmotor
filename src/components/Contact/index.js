@@ -4,7 +4,7 @@ import "./styles.css";
 class Contact extends Component {
   render() {
     return (
-      <main className="wrapper">
+      <main className="contactWrapper">
         <section>
           <a href="tel:+19719886575"><p className="lineStyle6">Call [ 971 ] 988 - 6575 </p></a>
           <hr />
