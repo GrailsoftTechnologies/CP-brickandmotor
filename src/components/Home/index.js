@@ -6,7 +6,7 @@ import './styles.css';
 class Home extends Component {
   render() {
     return (
-      <main className='wrapper'>
+      <main className='homeWrapper'>
         <section className='section parallax bg1'>
           <div className="lineStyle1">BRICK</div>
           <div className="lineStyle2">AND</div>

@@ -1,4 +1,5 @@
-.NavBar {
+.my-nav-bar {
+	height: 10vh;
 }
 
 .socialIcons{
@@ -30,8 +31,8 @@
   min-width: 40px;
 }
 #bamLogo {
-  max-width:120px;
-  max-height:120px;
+  max-width:10vh;
+  max-height:10vh;
   width: auto;
   height: auto;
   margin-left: 5vw;

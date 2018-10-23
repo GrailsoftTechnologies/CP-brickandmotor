@@ -4,12 +4,11 @@ body, html {
     margin: 0;
     padding: 0;
 }
-.wrapper {
-  height: 100vh;
+.homeWrapper {
+  height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
-  max-height: 80%
 }
 .section {
   position: relative;
