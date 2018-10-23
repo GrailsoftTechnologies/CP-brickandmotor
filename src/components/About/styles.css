@@ -1,5 +1,5 @@
 .aboutWrapper {
-  margin: auto;
-  max-width: 1200px;
-  max-height: 80vh;
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
