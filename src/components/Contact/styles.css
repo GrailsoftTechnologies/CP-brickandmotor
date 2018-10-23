@@ -1,7 +1,16 @@
-.wrapper{
-  padding-top: 80px;
+.contactWrapper{
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .mapBox{
   width: 80%;
   margin: auto;
+}
+hr {
+  border-top: 1px solid white;
+}
+a:hover{
+  color: grey;
+  text-decoration: none;
 }

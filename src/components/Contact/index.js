@@ -4,7 +4,7 @@ import "./styles.css";
 class Contact extends Component {
   render() {
     return (
-      <main className="wrapper">
+      <main className="contactWrapper">
         <section>
           <a href="tel:+19719886575"><p className="lineStyle6">Call [ 971 ] 988 - 6575 </p></a>
           <hr />
@@ -23,17 +23,16 @@ class Contact extends Component {
 							title="googleMap"
               height="400px"
               width="100%"
-              frameborder="0"
+              frameBorder="0"
               styles="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM
                 &q=Brick+and+Motor+Pizza,Portland+OR
                 &zoom=14"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
-					<hr />
-					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpizza.com</p></a>
-
+          <hr />
+					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpdx.com</p></a>
         </section>
       </main>
     );
