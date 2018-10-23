@@ -23,14 +23,15 @@ class Contact extends Component {
 							title="googleMap"
               height="400px"
               width="100%"
-              frameborder="0"
+              frameBorder="0"
               styles="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM
                 &q=Brick+and+Motor+Pizza,Portland+OR
                 &zoom=14"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
+          <hr />
 					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpizza.com</p></a>
 					<hr />
         </section>

@@ -2,4 +2,9 @@
   height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
+  padding-bottom: 5vh;
+}
+a:hover{
+  color: grey;
+  text-decoration: none;
 }

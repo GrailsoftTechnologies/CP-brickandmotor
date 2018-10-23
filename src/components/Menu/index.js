@@ -9,7 +9,7 @@ render() {
       <section>
         <div className="lineStyle1">|BRICK AND MOTOR|</div>
         <div className="lineStyle2">TEXT OR CALL</div>
-        <div className="lineStyle6">[971] 998 - 6575</div>
+        <a href="tel:+19719886575"><p className="lineStyle6">[ 971 ] 988 - 6575 </p></a>
         <div className="lineStyle2">TO PLACE AN ORDER</div>
         <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
         <Grid>
