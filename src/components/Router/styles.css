@@ -1,8 +1,31 @@
 .Router{
-	min-height: 75vh;
-  max-height: 80vh;
+	height: 80vh;
+	overflow: scroll;
+	margin: auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+		height: 0px;  /* remove scrollbar space */
+    background: transparent;  /* make scrollbar invisible */
+}
+
+.Router h1{
+	font-size: 4.5rem;
+}
+
+.Router h2{
+	font-size: 3.5rem;
+}
+
+.Router h3{
+	font-size: 2.5rem;
+}
+
+.Router h4{
+	font-size: 2rem;
 }
