@@ -11,7 +11,7 @@ class Contact extends Component {
       <Row>
         <Col>
           <h1>Call</h1>
-          <a href="tel:+19719886575"><h3>[971]-988-6575 </h3></a>
+          <a href="tel:+19719886575"><h3 style={{paddingTop: "2.5vh"}}>[971]-988-6575 </h3></a>
         </Col>
         <Col>
           <a
@@ -19,7 +19,8 @@ class Contact extends Component {
             alt="link to amazon delivery"
             target="_blank" rel="noreferrer noopener"
           >
-            <h1>Amazon Delivery</h1>
+            <h1>Amazon</h1>
+            <h1>Delivery</h1>
           </a>
         </Col>
       </Row>
