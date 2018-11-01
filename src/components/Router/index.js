@@ -23,6 +23,7 @@ class Router extends Component {
             .Router a:hover {
               border-bottom: 1px ` + this.props.hovercolor + ` solid;
               color: ` + this.props.hovercolor + `!important;
+              text-decoration: none;
             }
           `}
         </style>
