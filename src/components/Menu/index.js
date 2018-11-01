@@ -5,63 +5,73 @@ import './styles.css';
 class Menu extends Component {
 render() {
   return(
-    <main className='menuWrapper'>
-      <section>
-        <div className="lineStyle1">|BRICK AND MOTOR|</div>
-        <div className="lineStyle2">TEXT OR CALL</div>
-        <a href="tel:+19719886575"><p className="lineStyle6">[ 971 ] 988 - 6575 </p></a>
-        <div className="lineStyle2">TO PLACE AN ORDER</div>
-        <div className="lineStyle2">|WOOD FIRED PIZZA|</div>
-        <Container>
-          <Row>
-            <Col sm={12}>
-              <div className="lineStyle2">|WHOLE PIES|</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={6}>
-              <div className="lineStyle7">9 CHEESE/MARG</div>
-              <div className="lineStyle7">11 PEPPERONI</div>
-            </Col>
-            <Col sm={6}>
-                <div className="lineStyle7">12 VEGGI SPECIAL</div>
-                <div className="lineStyle7">13 MEAT SPECIAL</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={12}>
-              <div className="lineStyle2">|HALF PIE SLICES|</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={6}>
-              <div className="lineStyle7">5 CHEESE</div>
-            </Col>
-            <Col sm={6}>
-                <div className="lineStyle7">6 PEPPERONI</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={12}>
-              <div className="lineStyle2">|SIDES AND SALADS|</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={6}>
-              <div className="lineStyle7">5 BREADSTICKS</div>
-            </Col>
-            <Col sm={6}>
-                <div className="lineStyle7">4 CAESAR</div>
-                <div className="lineStyle7">4 CAPRESE</div>
-            </Col>
-          </Row>
-        </Container>
-        <div className="lineStyle2">|HOURS|</div>
-        <div className="lineStyle7">WED - THURS 4 PM - 1 AM</div>
-        <div className="lineStyle7">FRI - SAT 4 PM - 230 AM</div>
-        <div className="lineStyle7">SUN 4 PM - 12 AM</div>
-      </section>
-    </main>
+    <Container className='Menu'>
+      <Row>
+        <Col>
+          <h1>|BRICK AND MOTOR|</h1>
+          <h2>TEXT OR CALL</h2>
+          <a href="tel:+19719886575"><h4>[ 971 ] 988 - 6575 </h4></a>
+          <h2>TO PLACE AN ORDER</h2>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h1>|WOOD FIRED PIZZA|</h1>
+          <Container>
+            <Row>
+              <Col sm={12}>
+                <h2>|WHOLE PIES|</h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={6}>
+                <h4>9 CHEESE/MARG</h4>
+                <h4>11 PEPPERONI</h4>
+              </Col>
+              <Col sm={6}>
+                  <h4>12 VEGGI SPECIAL</h4>
+                  <h4>13 MEAT SPECIAL</h4>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12}>
+                <h2>|HALF PIE SLICES|</h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={6}>
+                <h4>5 CHEESE</h4>
+              </Col>
+              <Col sm={6}>
+                  <h4>6 PEPPERONI</h4>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12}>
+                <h2>|SIDES AND SALADS|</h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={6}>
+                <h4>5 BREADSTICKS</h4>
+              </Col>
+              <Col sm={6}>
+                  <h4>4 CAESAR</h4>
+                  <h4>4 CAPRESE</h4>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h2>|HOURS|</h2>
+          <h4>WED - THURS 4 PM - 1 AM</h4>
+          <h4>FRI - SAT 4 PM - 230 AM</h4>
+          <h4>SUN 4 PM - 12 AM</h4>
+        </Col>
+      </Row>
+    </Container>
     );
   }
 }

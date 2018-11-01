@@ -12,9 +12,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavigationBar background="black" text="white" hovercolor="grey" logo={Logo}/>
-        <Router background="black" text="white" hovercolor="grey" backgroundImage={Background1}/>
-        <Footer background="black" text="white" hovercolor="grey"/>
+        <NavigationBar background="black" text="white" hovercolor="#d9d9db" logo={Logo}/>
+        <Router background="black" text="white" hovercolor="#d9d9db" backgroundImage={Background1}/>
+        <Footer background="black" text="white" hovercolor="#d9d9db"/>
       </div>
     );
   }

@@ -6,11 +6,6 @@
   font-family: 'millionaire';
 }
 
-.Contact a {
-  color: inherit;
-}
-
 .Contact a:hover {
   text-decoration: none;
-	color: white;
 }

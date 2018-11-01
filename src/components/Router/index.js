@@ -16,6 +16,10 @@ class Router extends Component {
       <div className="Router" style={{color: this.props.text, backgroundColor: background, backgroundImage: "url(" + this.props.backgroundImage + ")"}}>
         <style>
           {`
+            .Router a {
+              color: ` + this.props.text + `!important;
+            }
+
             .Router a:hover {
               border-bottom: 1px ` + this.props.hovercolor + ` solid;
               color: ` + this.props.hovercolor + `!important;

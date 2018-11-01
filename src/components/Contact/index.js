@@ -10,8 +10,10 @@ class Contact extends Component {
       <Container className="Contact">
       <Row>
         <Col>
-          <h1>Call</h1>
-          <a href="tel:+19719886575"><h3 style={{paddingTop: "2.5vh"}}>[971]-988-6575 </h3></a>
+          <a href="tel:+19719886575">
+            <h1>Call</h1>
+            <h3 style={{paddingTop: "2.5vh"}}>[971]-988-6575</h3>
+          </a>
         </Col>
         <Col>
           <a

@@ -1,10 +1,10 @@
-.menuWrapper {
-  height: 80vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding-bottom: 5vh;
+.Menu {
+  background-color: inherit;
+  color: inherit;
+  height: 100%;
+  overflow: auto;
 }
-a:hover{
-  color: grey;
-  text-decoration: none;
+
+.Menu h1, h2, h3, h4, p{
+  font-family: 'millionaire';
 }
