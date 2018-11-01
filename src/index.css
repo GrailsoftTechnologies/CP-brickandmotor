@@ -3,7 +3,7 @@ body, html {
 }
 
 @font-face {
-    font-family: 'millionaire_demoregular';
+    font-family: 'millionaire';
     src: url('font/millionaire-webfont.woff2') format('woff2'),
          url('font/millionaire-webfont.woff') format('woff');
     font-weight: normal;

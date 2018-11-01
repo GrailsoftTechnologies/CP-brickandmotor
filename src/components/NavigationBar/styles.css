@@ -1,0 +1,35 @@
+.NavigationBar {
+	height: 100%;
+	font-family: 'millionaire';
+	font-size: 3vh;
+}
+
+.social-icons {
+	justify-content: center;
+}
+
+#logo {
+	height: 10vh;
+	width: 10vh;
+	margin-top: 1vh;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 1vh;
+}
+
+/* Bootstrap overrides */
+.nav-link {
+	color: inherit!important;
+	border-bottom: 1px transparent solid;
+}
+
+.navbar {
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 1px transparent solid;
+}
