@@ -25,6 +25,10 @@ class Router extends Component {
               color: ` + this.props.hovercolor + `!important;
               text-decoration: none;
             }
+
+            .Router hr {
+              border-top: 1px solid ` + this.props.text + `;
+            }
           `}
         </style>
         <Switch>

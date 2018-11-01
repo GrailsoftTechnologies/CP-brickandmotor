@@ -63,14 +63,6 @@ render() {
           </Container>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <h2>|HOURS|</h2>
-          <h4>WED - THURS 4 PM - 1 AM</h4>
-          <h4>FRI - SAT 4 PM - 230 AM</h4>
-          <h4>SUN 4 PM - 12 AM</h4>
-        </Col>
-      </Row>
     </Container>
     );
   }
