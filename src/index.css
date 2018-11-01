@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 @font-face {
     font-family: 'millionaire_demoregular';
     src: url('font/millionaire-webfont.woff2') format('woff2'),
@@ -6,36 +10,8 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Freshman';
-    src: url('font/Freshman.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@font-face {
-    font-family: 'New Athletic M54';
-    src: url('font/New Athletic M54.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'High-School';
-    src: url('font/High-School.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: white;
-  font-family: 'millionaire_demoregular', Arial, sans-serif;
-  font-weight:normal;
-  font-style:normal;
-}
 
 .lineStyle1 {
   font-size: 12vh;
