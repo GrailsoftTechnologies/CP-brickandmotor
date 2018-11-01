@@ -1,16 +1,16 @@
-.contactWrapper{
-  height: 80vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
+.Contact {
+  background-color: inherit;
+  color: inherit;
+  overflow: auto;
+  height: 100%;
+  font-family: 'millionaire';
 }
-.mapBox{
-  width: 80%;
-  margin: auto;
+
+.Contact a {
+  color: inherit;
 }
-hr {
-  border-top: 1px solid white;
-}
-a:hover{
-  color: grey;
+
+.Contact a:hover {
   text-decoration: none;
+	color: white;
 }

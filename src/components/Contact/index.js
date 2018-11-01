@@ -1,40 +1,39 @@
 import React, { Component } from "react";
+import { Container, Col, Row } from 'reactstrap';
 import "./styles.css";
+
+import GoogleMapFrame from '../GoogleMapFrame';
 
 class Contact extends Component {
   render() {
     return (
-      <main className="contactWrapper">
-        <section>
-          <a href="tel:+19719886575"><p className="lineStyle6">Call [ 971 ] 988 - 6575 </p></a>
-          <hr />
-          <div className="lineStyle6">
-            <a
-              href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_23"
-              alt="link to amazon delivery"
-							target="_blank" rel="noreferrer noopener"
-            >
-              Amazon Delivery
-            </a>
-          </div>
-          <hr />
-          <div className="mapBox">
-            <iframe
-							title="googleMap"
-              height="400px"
-              width="100%"
-              frameBorder="0"
-              styles="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM
-                &q=Brick+and+Motor+Pizza,Portland+OR
-                &zoom=14"
-              allowFullScreen>
-            </iframe>
-          </div>
-          <hr />
-					<a href="mailto:info@brickandmotorpizza.com"><p className="lineStyle6">info@brickandmotorpdx.com</p></a>
-        </section>
-      </main>
+      <Container className="Contact">
+      <Row>
+        <Col>
+          <h1>Call</h1>
+          <a href="tel:+19719886575"><h3>[971]-988-6575 </h3></a>
+        </Col>
+        <Col>
+          <a
+            href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_23"
+            alt="link to amazon delivery"
+            target="_blank" rel="noreferrer noopener"
+          >
+            <h1>Amazon Delivery</h1>
+          </a>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <GoogleMapFrame name="Brick+And+Motor+Pizza" location="Portland+OR"/>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <a href="mailto:info@brickandmotorpdx.com"><h4>info@brickandmotorpdx.com</h4></a>
+        </Col>
+      </Row>
+    </Container>
     );
   }
 }
