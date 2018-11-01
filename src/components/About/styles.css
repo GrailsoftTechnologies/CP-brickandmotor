@@ -1,5 +1,7 @@
-.aboutWrapper {
-  height: 80vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.About {
+  background-color: inherit;
+  color: inherit;
+  height: 100%;
+  overflow: scroll;
+  font-family: 'millionaire';
 }
