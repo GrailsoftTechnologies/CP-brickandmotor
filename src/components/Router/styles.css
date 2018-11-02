@@ -7,7 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	font-family: 'millionaire';
+	font-family: 'millionaire', 'Roboto';
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
