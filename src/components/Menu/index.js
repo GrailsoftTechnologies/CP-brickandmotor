@@ -10,7 +10,7 @@ render() {
         <Col>
           <h1>|BRICK AND MOTOR|</h1>
           <h2>TEXT OR CALL</h2>
-          <a href="tel:+19719886575"><h4>[ 971 ] 988 - 6575 </h4></a>
+          <a href="tel:+19719886575"><h3>[ 971 ] 988 - 6575 </h3></a>
           <h2>TO PLACE AN ORDER</h2>
         </Col>
       </Row>
@@ -25,12 +25,12 @@ render() {
             </Row>
             <Row>
               <Col sm={6}>
-                <h4>9 CHEESE/MARG</h4>
-                <h4>11 PEPPERONI</h4>
+                <h3>9 CHEESE/MARG</h3>
+                <h3>11 PEPPERONI</h3>
               </Col>
               <Col sm={6}>
-                  <h4>12 VEGGI SPECIAL</h4>
-                  <h4>13 MEAT SPECIAL</h4>
+                  <h3>12 VEGGI SPECIAL</h3>
+                  <h3>13 MEAT SPECIAL</h3>
               </Col>
             </Row>
             <Row>
@@ -40,10 +40,10 @@ render() {
             </Row>
             <Row>
               <Col sm={6}>
-                <h4>5 CHEESE</h4>
+                <h3>5 CHEESE</h3>
               </Col>
               <Col sm={6}>
-                  <h4>6 PEPPERONI</h4>
+                  <h3>6 PEPPERONI</h3>
               </Col>
             </Row>
             <Row>
@@ -51,13 +51,15 @@ render() {
                 <h2>|SIDES AND SALADS|</h2>
               </Col>
             </Row>
-            <Row>
+            <Row className="justify-content-center">
               <Col sm={6}>
-                <h4>5 BREADSTICKS</h4>
+                  <h3>4 CAESAR</h3>
               </Col>
               <Col sm={6}>
-                  <h4>4 CAESAR</h4>
-                  <h4>4 CAPRESE</h4>
+                <h3>4 CAPRESE</h3>
+              </Col>
+              <Col sm={6}>
+                <h3>5 BREADSTICKS</h3>
               </Col>
             </Row>
           </Container>

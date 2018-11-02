@@ -1,45 +1,26 @@
 body, html {
   height: 100%;
+  font-size: 10px;
 }
 
 @font-face {
-    font-family: 'millionaire';
-    src: url('font/millionaire-webfont.woff2') format('woff2'),
-         url('font/millionaire-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'millionaire';
+  src: url('font/millionaire-webfont.woff2') format('woff2'),
+       url('font/millionaire-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
 
+@media (min-width: 576px) {
+  body, html {
+    font-size: 16px;
+  }
+}
 
-.lineStyle1 {
-  font-size: 12vh;
-  padding: 4vh;
-}
-.lineStyle2 {
-  font-size: 8vh;
-  padding: 2vh;
-}
-.lineStyle3 {
-  font-size: 6vh;
-  padding: 1vh;
-  padding-top: 5vh;
-}
-.lineStyle4 {
-  font-size: 2vh;
-}
-.lineStyle5 {
-  font-size: 6vh;
-  padding: 1vh;
-  padding-top: 5vh;
-  /* font-family: 'New Athletic M54', Arial, sans-serif; */
-}
-.lineStyle6 {
-  font-size: 10vh;
-  padding: 2vh;
-  /* font-family: 'New Athletic M54', Arial, sans-serif; */
-}
-.lineStyle7 {
-  font-size: 4vh;
+@media (min-width: 1200px) {
+  body, html {
+    font-size: 20px;
+  }
 }

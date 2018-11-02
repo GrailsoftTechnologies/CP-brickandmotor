@@ -9,13 +9,13 @@ class Contact extends Component {
     return (
       <Container className="Contact">
       <Row>
-        <Col>
+        <Col md>
           <a href="tel:+19719886575">
             <h1>Call</h1>
             <h3 style={{paddingTop: "2.5vh"}}>[971]-988-6575</h3>
           </a>
         </Col>
-        <Col>
+        <Col md>
           <a
             href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_23"
             alt="link to amazon delivery"
