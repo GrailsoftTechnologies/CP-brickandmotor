@@ -2,6 +2,7 @@
 	height: 100%;
 	font-family: 'millionaire';
 	font-size: 3vh;
+	min-height: 14vh;
 }
 
 .social-icons {
@@ -10,10 +11,9 @@
 
 #logo {
 	height: 10vh;
-	width: 10vh;
 	margin-top: 1vh;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 2vw;
+  margin-left: 2vw;
   margin-bottom: 1vh;
 }
 
