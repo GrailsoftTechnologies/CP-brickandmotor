@@ -16,7 +16,7 @@
 	background-color: inherit;
   color: inherit;
   height: 100%;
-  overflow: auto;
+  overflow: visible;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
@@ -45,7 +45,7 @@
 /* Custom styling */
 
 .ParallaxPage {
-	font-family: "Raleway";
+	font-family: "millionaire";
 }
 
 .ParallaxPage h1{

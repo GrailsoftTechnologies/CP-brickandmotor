@@ -28,7 +28,7 @@ class Contact extends Component {
       </Row>
       <Row>
         <Col>
-          <GoogleMapFrame name="Brick+And+Motor+Pizza" location="Portland+OR"/>
+          <GoogleMapFrame name="Brick+And+Motor+Pizza+Oregon+99E" location="Portland+OR"/>
         </Col>
       </Row>
       <Row>
