@@ -28,7 +28,12 @@ class Contact extends Component {
       </Row>
       <Row>
         <Col>
-          <GoogleMapFrame name="Brick+And+Motor+Pizza+Oregon+99E" location="Portland+OR"/>
+          <h1>Find us next to Billy Ray's Dive</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <GoogleMapFrame name="Billy+Rays+Dive" location="Portland+OR"/>
         </Col>
       </Row>
       <Row>
