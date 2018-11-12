@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import './styles.css';
 
-class About extends Component {
-render() {
+export default function About(props){
   return(
     <Container className="About">
       <Row>
@@ -17,8 +15,5 @@ render() {
         </Col>
       </Row>
     </Container>
-    );
-  }
-}
-
-export default About;
+  );
+};
