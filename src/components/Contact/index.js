@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Col, Row } from 'reactstrap';
-import "./styles.css";
 
 import GoogleMapFrame from '../GoogleMapFrame';
 
-class Contact extends Component {
-  render() {
-    return (
-      <Container className="Contact">
+export default function Contact(props){
+  return(
+    <Container className="Contact">
       <Row>
         <Col md>
           <a href="tel:+19719886575">
@@ -33,7 +31,7 @@ class Contact extends Component {
       </Row>
       <Row>
         <Col>
-          <GoogleMapFrame name="Billy+Rays+Dive" location="Portland+OR"/>
+          <GoogleMapFrame name="Brick+and+Motor+Pizza" location="Portland+OR"/>
         </Col>
       </Row>
       <Row>
@@ -42,8 +40,5 @@ class Contact extends Component {
         </Col>
       </Row>
     </Container>
-    );
-  }
-}
-
-export default Contact;
+  );
+};
