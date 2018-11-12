@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import './styles.css';
 
-class Menu extends Component {
-render() {
+export default function Menu(props){
   return(
     <Container className='Menu'>
       <Row>
@@ -66,8 +64,5 @@ render() {
         </Col>
       </Row>
     </Container>
-    );
-  }
+  );
 }
-
-export default Menu;
