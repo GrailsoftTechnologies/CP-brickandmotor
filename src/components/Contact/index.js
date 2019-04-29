@@ -8,9 +8,9 @@ export default function Contact(props){
     <Container className="Contact">
       <Row>
         <Col md>
-          <a href="tel:+19719886575">
+          <a href="tel:+19719986575">
             <h1>Call</h1>
-            <h3 style={{paddingTop: "2.5vh"}}>[971]-988-6575</h3>
+            <h3 style={{paddingTop: "2.5vh"}}>[971]-998-6575</h3>
           </a>
         </Col>
         <Col md>

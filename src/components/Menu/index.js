@@ -8,7 +8,7 @@ export default function Menu(props){
         <Col>
           <h1>|BRICK AND MOTOR|</h1>
           <h2>TEXT OR CALL</h2>
-          <a href="tel:+19719886575"><h3>[ 971 ] 988 - 6575 </h3></a>
+          <a href="tel:+19719986575"><h3>[ 971 ] 998 - 6575 </h3></a>
           <h2>TO PLACE AN ORDER</h2>
         </Col>
       </Row>
